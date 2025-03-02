@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sumanth Reddy">
+  <meta name="description" content="The official website of Sunrisers Hyderabad">
+  <title>Sunrisers Hyderabad Fan Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Sunrisers_Hyderabad_Logo.svg/1200px-Sunrisers_Hyderabad_Logo.svg.png" alt="SRH Logo" class="logo">
+    <h1>Sunrisers Hyderabad</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <video autoplay loop muted>
+      <source src="https://cdn.pixabay.com/video/2019/07/27/25552-351374170_tiny.jpg" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h2>Welcome to Sunrisers Fan Club</h2>
+      <p>Let's Connect and Support Our TEAM</p>
+      <a href="#contact" class="hero-button">Get Connected</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Stay updated with the latest news, matches, and squad updates</p>
+    <ul>
+      <li>Sunrisers Hyderabad squad for the season</li>
+      <li>Stay tuned for match schedules and results</li>
+      <li>Read the latest news and updates about SRH</li>
+      <li>Follow us on social media for more updates!</li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Sunrisers Hyderabad (SRH) is one of the most exciting and passionate teams in the Indian Premier League (IPL). Established in 2012, SRH has built a reputation for strong bowling attacks, fearless batting, and a never-give-up attitude. With a dedicated fan base known as the Orange Army, SRH continues to shine in the IPL with determination and spirit.</p>
+    <img src="https://pbs.twimg.com/media/GdQEdu9aoAEjoWe?format=jpg&name=4096x4096" alt="SRH Team Image">
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:+5555555555">555-555-5555</a></p>
+    
+    <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Your Name" required>
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Your Email" required>
+        </p>
+        <p>
+          <label for="message">Your Message:</label>
+          <br>
+          <textarea name="message" id="message" cols="30" rows="5" placeholder="Type your message here"></textarea>
+        </p>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> SRH Fan Club. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
